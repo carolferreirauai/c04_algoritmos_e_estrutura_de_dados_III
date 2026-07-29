@@ -1,0 +1,38 @@
+/*
+1001 - EXTREMAMENTE BASICO
+
+LEIA 2 VALORES INTEIROS E ARMAZENE-OS NAS VARIAVEIS A E B. EFETUE A SOMA DE A E B
+ATRIBUINDO O SEU RESULTADO NA VARIAVEL X. IMPRIMA X CONFORME EXEMPLO APRESENTADO
+ABAIXO. NAO APRESENTE MENSAGEM ALGUMA ALEM DAQUILO QUE ESTA SENDO ESPECIFICADO
+E NAO ESQUEÇA DE IMPRIMIR O FIM DE LINHA APÓS O RESULTADO, CASO CONTRÁRIO, VOCÊ
+RECEBERÁ "PRESENTATION ERROR".
+
+ENTRADA: A ENTRADA CONTÉM 2 VALORES INTEIROS
+
+SAÍDA: IMPRIMA A MENSAGEM "X = " (LETRA C MAIÚSCULA) SEGUIDO PELO VALOR DA VARIÁVEL X E PELO
+FINAL DE LINHA. CUIDE PARA QUE TENHA UM ESPAÇO ANTES E DEPOIS DO SINAL DE IGUALDADE,
+CONFORME O EXEMPLO ABAIXO.
+*/
+//biblioteca
+#include <iostream>
+
+using namespace std;
+
+//função principal
+int main()
+{
+    //declaração de váriaveis
+    int A, B;
+    int resultado;
+
+    //entrada de dados
+    cin >> A >> B;
+
+    //desenvolvimento
+    resultado = A + B;
+
+    //saída de dados
+    cout << "X = " << resultado << endl;
+
+    return 0;
+}
