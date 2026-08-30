@@ -25,7 +25,7 @@ using namespace std;
 int main()
 {
     //declaração de variáveis
-    int fibonacci[61];
+    long long fibonacci[61];
     int t, n;
 
     //entrada de dados
